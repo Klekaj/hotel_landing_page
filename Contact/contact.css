@@ -1,0 +1,196 @@
+nav{
+	text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),#28282B) , url("images/home.jpg");
+    background-size: cover;
+    height: 650px; /* You must set a specified height */
+    margin-top: -140px;
+    margin-left: -10px;
+    width: 1528px;
+}
+
+a:hover {
+    color: #B8860B;
+}
+	nav ul li {
+		display: inline-block;
+		padding: 1em;
+        margin-top: 30px;
+	}
+    nav ul{
+        margin-left: 150px;
+    }
+		nav ul li:hover{
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+			nav ul li a {
+				color: white;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-size: 1em;	
+				display: inline-block;     
+				position: relative;
+				z-index: 1;
+				margin:-2em;
+				padding: 2em;
+			}
+    .navbar-nav>.active>a {
+        color: #B8860B;
+    }
+    @keyframes my-animation {        
+        from {
+          opacity : 0;
+          left : -500px;
+        }
+        to {
+          opacity : 1;
+          left : 0;
+        }      
+      }
+      
+      .run-animation {
+        position: relative;
+        animation: my-animation 2s ease;
+      }
+      
+      #logo {
+        margin-left: 450px;
+        margin-top: -400px;
+        font-size: 80px;
+        letter-spacing: 2px;
+        color: #B8860B;
+        font-family : Palatino Linotype, Book Antiqua, Palatino, serif;
+      }
+#book_now{
+    width: 110px;
+    margin-left: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #B8860B;
+    border: 1px solid #B8860B;
+}
+#book_now:hover{
+    width: 110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #B8860B;
+    color: white;
+}
+section{
+    background-color: #28282B;
+    margin-top: 309px;
+    width: 1528px; 
+    margin-left: -10px; 
+}
+section h1{
+    font-size: 50px;
+    width: 510px;
+    font-family : Palatino Linotype, Book Antiqua, Palatino, serif;
+    color: #B8860B;
+    margin-left: 450px;
+    padding-top: 70px;
+}
+section h1::selection{
+    background-color: #B8860B;
+    color: black;
+}
+section h2{
+    font-size: 35px;
+    width: 310px;
+    font-family : Palatino Linotype, Book Antiqua, Palatino, serif;
+    color: #B8860B;
+    margin-left: 625px;
+}
+section h2::selection{
+    background-color: #B8860B;
+    color: black;
+}
+section h3{
+    width: 375px;
+    margin-left: 550px;
+    color: 	#C8C8C8;
+    font-size: 17px;
+}
+section h3::selection{
+    background-color: #B8860B;
+    color: black;
+}
+#info{
+    background-color: #404040;
+    height: 600px;
+    width: 600px;
+    margin-top: 30px;
+}
+label{
+    width: 375px;
+    color: 	#C8C8C8;
+    font-size: 17px;
+}
+label::selection{
+    background-color: #B8860B;
+    color: black;
+}
+input{
+    width: 470px;
+    height: 50px;
+}
+textarea{
+    width: 470px;
+}
+#submit{
+    width: 113px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #B8860B;
+    background-color: #28282B;
+    border: 1px solid #B8860B;
+    margin-top: 20px;
+    font-size: 17px;
+}
+#submit:hover{
+    width: 113px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #B8860B;
+    color: white;
+}
+#contact{
+    background-color: black;
+    width: 1528px;
+    margin-left: -10px;
+    display: flex;
+}
+#contact ul{
+	text-align: center;
+    margin-top: 90px;
+}
+	#contact ul li {
+		display: inline-block;
+		padding: 5px;
+	}
+    #contact ul{
+        margin-left: 150px;
+    }
+		#contact ul li:hover{
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+			#contact ul li a {
+                color: #B8860B;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-size: 15px;	
+				display: inline-block;     
+				position: relative;
+				z-index: 1;
+				margin:-2em;
+				padding: 2em;
+			}
